@@ -4,12 +4,24 @@
 
 - No endpoints except user auth.
 
-- run following commands in terminal to run
 
-```bash
-npm i
+
+### Setup
+
+#### create a default.json file
+
+- in the config folder to store the secret tokens for Mongo and JWT. store as a json object as follows
+
+```
+{
+    "mongoURI":"<enter here>",
+    "jwtSecret": "<enter here>"
+}
+
 ```
 
+#### run following command in terminal to run.
+
 ```bash
-nodemon
+npm i && nodemon
 ```
